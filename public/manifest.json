@@ -1,0 +1,66 @@
+{
+    "name": "Pushpak O2 - Hackathon Platform",
+    "short_name": "Pushpak O2",
+    "description": "Premier hackathon platform for developers, innovators, and tech enthusiasts. Discover, participate, and win!",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#667eea",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": [
+        "education",
+        "productivity",
+        "technology"
+    ],
+    "lang": "en-US",
+    "dir": "ltr",
+    "scope": "/",
+    "shortcuts": [
+        {
+            "name": "Browse Hackathons",
+            "short_name": "Hackathons",
+            "description": "View all available hackathons",
+            "url": "/hackathons",
+            "icons": [
+                {
+                    "src": "/icon-192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Student Dashboard",
+            "short_name": "Dashboard",
+            "description": "Access your student dashboard",
+            "url": "/dashboards/student",
+            "icons": [
+                {
+                    "src": "/icon-192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/screenshot-1.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "label": "Hackathon listing page"
+        }
+    ]
+}

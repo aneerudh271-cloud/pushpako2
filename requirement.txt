@@ -1,0 +1,262 @@
+# Pushpak O2 Website Content Requirements
+
+This document outlines all the content and data required from Pushpak O2 to replace mock data with real company information. The website is built with Next.js and uses mock data files in src/lib/ for development. All content needs to be provided in a structured format for seamless integration.
+
+## 1. Company Information (About Us)
+### Hero Section
+- Company tagline/subtitle (current: "Engineering the Future of Clean Air Mobility")
+- Hero description text
+- Hero background video/image (replace /hero-drone-video.gif)
+- Call-to-action text and link
+
+### Vision & Mission
+- Vision statement
+- Extended vision description
+- Vision section image (replace /hero-drone-video.gif)
+
+### Core Values
+- List of 3 core values with:
+  - Title
+  - Description
+  - Icon name (from Lucide React icons)
+
+### Footer Information
+- Social media links (Twitter, LinkedIn, YouTube, GitHub)
+- Company contact details:
+  - Full company name (current: "Pushpak O2 Aviation Pvt Ltd")
+  - Address
+  - Email (current: info@pushpako2.com)
+  - Phone (current: +91-11-1234-5678)
+- Footer links with last updated dates:
+  - Privacy Policy URL and date
+  - FAQ/Support URL and date
+  - Roadmap URL and date
+
+### Statistics
+- Aircraft delivered count
+- Flight range (km)
+- Energy efficiency (%)
+- Safety record (%)
+
+## 2. Roadmap
+- Quarterly milestones for 2024 and beyond
+- Each milestone should include:
+  - Quarter (Q1 2024, Q2 2024, etc.)
+  - Title
+  - Status (planned, in-progress, completed)
+  - Description
+  - List of key milestones/achievements
+
+## 3. Team Members
+For each team member, provide:
+- Full name
+- Role/position
+- Bio/description
+- Profile image (high-quality headshot)
+- Email
+- LinkedIn profile URL
+- Twitter/GitHub (if applicable)
+- Department (Executive, Technology, Engineering, Operations, Safety)
+- Join date
+- Location
+- Skills (array of technical/professional skills)
+- Achievements (array of key accomplishments)
+- Whether currently active
+
+## 4. Blogs & Articles
+For each blog post, provide:
+- Title
+- Slug/URL identifier
+- Excerpt/summary (150-200 words)
+- Full content (HTML format with proper headings, paragraphs, images)
+- Author name and details
+- Publication date
+- Last updated date
+- Category (Technology, Industry, Safety, Business, Sustainability)
+- Tags (array of relevant keywords)
+- Featured image (high-resolution)
+- Additional images used in content
+- Videos (YouTube URLs or hosted videos)
+- Read time estimate
+- SEO metadata (if different from title/excerpt)
+
+## 5. Services & Products
+For each service/product, provide:
+- Title
+- Slug
+- Description
+- Category (Products or Services)
+- Status (active, development, discontinued)
+- Icon name (Lucide React)
+- Featured image
+- Additional images
+- Pricing tiers with:
+  - Tier name (Standard, Premium, Enterprise)
+  - Price and currency
+  - Billing period (one-time or monthly)
+- Features list
+- Customer testimonials:
+  - Customer name
+  - Company
+  - Rating (1-5)
+  - Testimonial text
+  - Date
+- Technical specifications
+- Booking/inquiry URL
+- Whether popular/featured
+- Display order
+
+## 6. Technologies
+For each technology, provide:
+- Title
+- Slug
+- Description
+- Category (Aircraft, Propulsion, Infrastructure, Software)
+- Status (active, development, deprecated)
+- Version number
+- Release date
+- Last updated date
+- Featured image
+- Additional images/videos
+- Technical specifications
+- Features list
+- Partner companies (if any)
+- Documentation files (PDFs, manuals)
+- Download/view counts (for existing technologies)
+
+## 7. Fleet Information
+For each aircraft in fleet, provide:
+- Aircraft name/model
+- Model number
+- Type (cargo, passenger, special-mission)
+- Status (active, maintenance, retired)
+- Location/hub
+- Purchase date
+- Last maintenance date
+- Next maintenance date
+- Total flight hours
+- Maximum flight hours
+- Fuel type
+- Capacity (passengers and cargo)
+- Range (km)
+- Maximum speed (km/h)
+- Compliance status
+- Insurance expiry date
+- Performance metrics:
+  - Efficiency (%)
+  - Reliability (%)
+  - Utilization (%)
+- Maintenance logs (historical records)
+- Operational logs (mission history)
+
+## 8. Investors & Stakeholders
+For each investor, provide:
+- Full name
+- Contact information (email, phone)
+- Investment amount
+- Current valuation
+- ROI percentage
+- Join date
+- Profile picture
+- Investor type (individual, institutional, angel)
+- Risk profile (conservative, moderate, aggressive)
+- Investment stage (seed, series-a, series-b)
+- Portfolio details
+- Communication history
+- Legal documents (agreements, KYC, etc.)
+- Status (active, inactive, exited)
+- Last contact date
+- Next follow-up date
+- Notes and tags
+
+## 9. Media Assets
+### Images
+- High-resolution company logo (multiple formats)
+- Team member photos (professional headshots)
+- Aircraft/product images (various angles, in-flight, etc.)
+- Technology demonstration images
+- Office/facility images
+- Event/conference photos
+- Infographics and diagrams
+
+### Videos
+- Company introduction video
+- Product demonstration videos
+- Technology explanation videos
+- Customer testimonials
+- Behind-the-scenes content
+- Event coverage
+
+### Documents
+- Company brochures
+- Product catalogs
+- Technical specifications
+- Case studies
+- White papers
+- Press releases
+
+## 10. Contact & Support Information
+- Primary contact email
+- Support email
+- Sales inquiry email
+- Phone numbers (with country codes)
+- Office addresses
+- Business hours
+- Emergency contact information
+
+## 11. Legal & Compliance
+- Privacy Policy (full text and last updated date)
+- Terms of Service
+- Cookie Policy
+- GDPR compliance information
+- Regulatory certifications
+- Safety standards compliance
+
+## 12. Analytics & Performance Data
+- Website traffic metrics (if available)
+- User engagement data
+- Conversion rates
+- Customer demographics
+- Popular content/pages
+- Performance benchmarks
+
+## 13. Integration Requirements
+- API endpoints for real-time data (fleet status, bookings, etc.)
+- Database connection details
+- Third-party service integrations (CRM, analytics, etc.)
+- Authentication systems
+- Payment processing (if applicable)
+
+## 14. Content Strategy
+- Brand voice and tone guidelines
+- Key messaging points
+- Target audience personas
+- Content calendar (upcoming announcements, events)
+- SEO keywords and strategy
+
+## 15. Technical Specifications
+- Aircraft technical details (specifications, certifications)
+- Technology patents and IP
+- Software architecture documentation
+- API documentation
+- System requirements
+
+## Delivery Format
+All content should be provided in:
+1. Structured JSON/CSV files matching the mock data format
+2. High-resolution images (minimum 1920x1080 for hero images)
+3. Properly formatted HTML for blog content
+4. PDF documents where applicable
+5. Video files in MP4/WebM format
+
+## Timeline
+- Phase 1: Company basics, team, about us (Week 1-2)
+- Phase 2: Products, services, technologies (Week 3-4)
+- Phase 3: Blogs, media assets (Week 5-6)
+- Phase 4: Fleet, investors, analytics (Week 7-8)
+- Phase 5: Testing and refinements (Week 9-10)
+
+## Contact for Questions
+- Project Manager: [Name]
+- Technical Lead: [Name]
+- Content Coordinator: [Name]

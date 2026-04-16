@@ -1,0 +1,5 @@
+db user name : aneerudh271_db_user
+password: 3mfA6a77eccUBzVQ
+
+
+connection string: mongodb+srv://aneerudh271_db_user:<3mfA6a77eccUBzVQ>@pushpako2.q6njkug.mongodb.net/?appName=pushpako2
