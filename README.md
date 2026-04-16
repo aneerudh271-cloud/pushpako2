@@ -7,7 +7,7 @@
 **Pushpak O2** is an advanced, multi-role aerospace and hackathon management ecosystem built on Next.js 15. The platform integrates complex project lifecycles, role-based access control (RBAC), real-time email notifications, and enterprise-grade SEO. This report details every dashboard, flow, and technical implementation.
 
 ---
-
+ 
 ## 2. Authentication & Security Architecture
 
 ### The Gatekeeper: Dual Authentication
